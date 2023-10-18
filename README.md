@@ -61,3 +61,29 @@ export const BookSchema = SchemaFactory.createForClass(Book);
 ## Create Book DTO
 
 DTO (Data Transfer Object) is like define what type of data to expect from the user
+
+```js
+import { Category } from '../schemas/book.schema';
+
+export class CreateBookDto {
+  readonly title: string;
+  readonly description: string;
+  readonly author: string;
+  readonly category: Category;
+}
+
+```
+
+## Update Book DTO
+
+```js
+import { Category } from '../schemas/book.schema';
+
+export class UpdateBookDto {
+  readonly title: string;
+  readonly description: string;
+  readonly author: string;
+  readonly category: Category;
+}
+
+```
