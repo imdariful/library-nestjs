@@ -14,7 +14,6 @@ create module using
 install mongoose and nest config for require dot env
 `pnpm add mongoose @nestjs/mongoose @nestjs/config --save`
 
-
 ```js
     // for .env file
     ConfigModule.forRoot({
@@ -26,6 +25,7 @@ install mongoose and nest config for require dot env
 ```
 
 ## Book Schema created
+
 ```ts
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 
@@ -55,10 +55,9 @@ export class Book {
 }
 
 // export schema
-export const BookSchema = SchemaFactory.createForClass(Book)
+export const BookSchema = SchemaFactory.createForClass(Book);
 ```
 
-
 ## Create Book DTO
-DTO (Data Transfer Object) is like define what type of data to expect from the user
 
+DTO (Data Transfer Object) is like define what type of data to expect from the user
