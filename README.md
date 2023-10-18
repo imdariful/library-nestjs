@@ -91,3 +91,7 @@ export class UpdateBookDto {
 ## Pagination
 
 install `@types/express-serve-static-core`
+
+## Validation
+
+install `class-validator` & `class-transformer`
