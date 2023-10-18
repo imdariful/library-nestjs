@@ -87,3 +87,7 @@ export class UpdateBookDto {
 }
 
 ```
+
+## Pagination
+
+install `@types/express-serve-static-core`
